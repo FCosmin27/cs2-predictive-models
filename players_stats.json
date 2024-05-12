@@ -1,0 +1,2018 @@
+{
+    "karrigan": {
+        "Rating": "0.95",
+        "Kills Per Round": "0.60",
+        "Headshots": "57.2",
+        "Deaths Per Round": "0.70",
+        "Rounds Contributed": "68.6"
+    },
+    "rain": {
+        "Rating": "1.05",
+        "Kills Per Round": "0.65",
+        "Headshots": "65.1",
+        "Deaths Per Round": "0.71",
+        "Rounds Contributed": "70.4"
+    },
+    "frozen": {
+        "Rating": "1.14",
+        "Kills Per Round": "0.71",
+        "Headshots": "53.3",
+        "Deaths Per Round": "0.63",
+        "Rounds Contributed": "73.5"
+    },
+    "ropz": {
+        "Rating": "1.10",
+        "Kills Per Round": "0.69",
+        "Headshots": "52.8",
+        "Deaths Per Round": "0.61",
+        "Rounds Contributed": "74.1"
+    },
+    "broky": {
+        "Rating": "1.22",
+        "Kills Per Round": "0.78",
+        "Headshots": "37.0",
+        "Deaths Per Round": "0.59",
+        "Rounds Contributed": "77.1"
+    },
+    "Aleksib": {
+        "Rating": "0.91",
+        "Kills Per Round": "0.53",
+        "Headshots": "42.7",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "69.2"
+    },
+    "iM": {
+        "Rating": "1.00",
+        "Kills Per Round": "0.63",
+        "Headshots": "43.9",
+        "Deaths Per Round": "0.70",
+        "Rounds Contributed": "65.7"
+    },
+    "b1t": {
+        "Rating": "1.12",
+        "Kills Per Round": "0.72",
+        "Headshots": "65.3",
+        "Deaths Per Round": "0.65",
+        "Rounds Contributed": "73.0"
+    },
+    "jL": {
+        "Rating": "1.15",
+        "Kills Per Round": "0.74",
+        "Headshots": "51.1",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "72.9"
+    },
+    "w0nderful": {
+        "Rating": "1.10",
+        "Kills Per Round": "0.71",
+        "Headshots": "41.4",
+        "Deaths Per Round": "0.60",
+        "Rounds Contributed": "73.7"
+    },
+    "Brollan": {
+        "Rating": "1.13",
+        "Kills Per Round": "0.67",
+        "Headshots": "53.9",
+        "Deaths Per Round": "0.64",
+        "Rounds Contributed": "75.4"
+    },
+    "siuhy": {
+        "Rating": "0.98",
+        "Kills Per Round": "0.59",
+        "Headshots": "58.7",
+        "Deaths Per Round": "0.64",
+        "Rounds Contributed": "71.0"
+    },
+    "torzsi": {
+        "Rating": "1.14",
+        "Kills Per Round": "0.74",
+        "Headshots": "32.7",
+        "Deaths Per Round": "0.59",
+        "Rounds Contributed": "70.5"
+    },
+    "Jimpphat": {
+        "Rating": "1.22",
+        "Kills Per Round": "0.75",
+        "Headshots": "53.4",
+        "Deaths Per Round": "0.59",
+        "Rounds Contributed": "78.5"
+    },
+    "xertioN": {
+        "Rating": "1.19",
+        "Kills Per Round": "0.74",
+        "Headshots": "49.4",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "74.1"
+    },
+    "chopper": {
+        "Rating": "1.02",
+        "Kills Per Round": "0.62",
+        "Headshots": "56.1",
+        "Deaths Per Round": "0.64",
+        "Rounds Contributed": "72.8"
+    },
+    "sh1ro": {
+        "Rating": "1.20",
+        "Kills Per Round": "0.73",
+        "Headshots": "38.8",
+        "Deaths Per Round": "0.53",
+        "Rounds Contributed": "77.6"
+    },
+    "magixx": {
+        "Rating": "1.08",
+        "Kills Per Round": "0.60",
+        "Headshots": "45.5",
+        "Deaths Per Round": "0.59",
+        "Rounds Contributed": "75.9"
+    },
+    "zont1x": {
+        "Rating": "1.11",
+        "Kills Per Round": "0.67",
+        "Headshots": "34.5",
+        "Deaths Per Round": "0.63",
+        "Rounds Contributed": "73.7"
+    },
+    "donk": {
+        "Rating": "1.38",
+        "Kills Per Round": "0.90",
+        "Headshots": "64.5",
+        "Deaths Per Round": "0.67",
+        "Rounds Contributed": "77.2"
+    },
+    "NiKo": {
+        "Rating": "1.18",
+        "Kills Per Round": "0.72",
+        "Headshots": "51.8",
+        "Deaths Per Round": "0.64",
+        "Rounds Contributed": "73.5"
+    },
+    "huNter": {
+        "Rating": "1.09",
+        "Kills Per Round": "0.67",
+        "Headshots": "46.7",
+        "Deaths Per Round": "0.63",
+        "Rounds Contributed": "74.6"
+    },
+    "nexa": {
+        "Rating": "1.05",
+        "Kills Per Round": "0.64",
+        "Headshots": "49.7",
+        "Deaths Per Round": "0.61",
+        "Rounds Contributed": "73.9"
+    },
+    "HooXi": {
+        "Rating": "0.92",
+        "Kills Per Round": "0.54",
+        "Headshots": "55.0",
+        "Deaths Per Round": "0.70",
+        "Rounds Contributed": "71.4"
+    },
+    "m0NESY": {
+        "Rating": "1.28",
+        "Kills Per Round": "0.82",
+        "Headshots": "42.9",
+        "Deaths Per Round": "0.58",
+        "Rounds Contributed": "76.0"
+    },
+    "apEX": {
+        "Rating": "1.04",
+        "Kills Per Round": "0.62",
+        "Headshots": "50.4",
+        "Deaths Per Round": "0.65",
+        "Rounds Contributed": "74.5"
+    },
+    "ZywOo": {
+        "Rating": "1.47",
+        "Kills Per Round": "0.90",
+        "Headshots": "45.8",
+        "Deaths Per Round": "0.58",
+        "Rounds Contributed": "81.6"
+    },
+    "flameZ": {
+        "Rating": "1.16",
+        "Kills Per Round": "0.69",
+        "Headshots": "48.1",
+        "Deaths Per Round": "0.64",
+        "Rounds Contributed": "75.8"
+    },
+    "Spinx": {
+        "Rating": "1.23",
+        "Kills Per Round": "0.76",
+        "Headshots": "53.0",
+        "Deaths Per Round": "0.59",
+        "Rounds Contributed": "76.3"
+    },
+    "mezii": {
+        "Rating": "1.07",
+        "Kills Per Round": "0.60",
+        "Headshots": "55.7",
+        "Deaths Per Round": "0.57",
+        "Rounds Contributed": "76.8"
+    },
+    "MAJ3R": {
+        "Rating": "0.98",
+        "Kills Per Round": "0.57",
+        "Headshots": "51.1",
+        "Deaths Per Round": "0.62",
+        "Rounds Contributed": "71.4"
+    },
+    "XANTARES": {
+        "Rating": "1.21",
+        "Kills Per Round": "0.71",
+        "Headshots": "49.4",
+        "Deaths Per Round": "0.64",
+        "Rounds Contributed": "75.8"
+    },
+    "woxic": {
+        "Rating": "1.09",
+        "Kills Per Round": "0.66",
+        "Headshots": "39.3",
+        "Deaths Per Round": "0.59",
+        "Rounds Contributed": "74.1"
+    },
+    "Calyx": {
+        "Rating": "1.01",
+        "Kills Per Round": "0.63",
+        "Headshots": "63.9",
+        "Deaths Per Round": "0.62",
+        "Rounds Contributed": "71.3"
+    },
+    "Wicadia": {
+        "Rating": "1.08",
+        "Kills Per Round": "0.71",
+        "Headshots": "56.0",
+        "Deaths Per Round": "0.69",
+        "Rounds Contributed": "71.4"
+    },
+    "device": {
+        "Rating": "1.17",
+        "Kills Per Round": "0.72",
+        "Headshots": "34.1",
+        "Deaths Per Round": "0.56",
+        "Rounds Contributed": "74.6"
+    },
+    "stavn": {
+        "Rating": "1.13",
+        "Kills Per Round": "0.69",
+        "Headshots": "45.7",
+        "Deaths Per Round": "0.65",
+        "Rounds Contributed": "73.1"
+    },
+    "br0": {
+        "Rating": "0.99",
+        "Kills Per Round": "0.57",
+        "Headshots": "63.7",
+        "Deaths Per Round": "0.65",
+        "Rounds Contributed": "74.7"
+    },
+    "jabbi": {
+        "Rating": "1.08",
+        "Kills Per Round": "0.70",
+        "Headshots": "57.2",
+        "Deaths Per Round": "0.65",
+        "Rounds Contributed": "71.9"
+    },
+    "Staehr": {
+        "Rating": "1.14",
+        "Kills Per Round": "0.69",
+        "Headshots": "53.3",
+        "Deaths Per Round": "0.64",
+        "Rounds Contributed": "73.8"
+    },
+    "electroNic": {
+        "Rating": "1.07",
+        "Kills Per Round": "0.66",
+        "Headshots": "50.0",
+        "Deaths Per Round": "0.69",
+        "Rounds Contributed": "71.5"
+    },
+    "FL1T": {
+        "Rating": "1.16",
+        "Kills Per Round": "0.68",
+        "Headshots": "47.4",
+        "Deaths Per Round": "0.63",
+        "Rounds Contributed": "74.6"
+    },
+    "Jame": {
+        "Rating": "1.10",
+        "Kills Per Round": "0.65",
+        "Headshots": "29.6",
+        "Deaths Per Round": "0.54",
+        "Rounds Contributed": "74.9"
+    },
+    "n0rb3r7": {
+        "Rating": "1.00",
+        "Kills Per Round": "0.61",
+        "Headshots": "47.6",
+        "Deaths Per Round": "0.65",
+        "Rounds Contributed": "69.6"
+    },
+    "fame": {
+        "Rating": "1.12",
+        "Kills Per Round": "0.68",
+        "Headshots": "61.4",
+        "Deaths Per Round": "0.64",
+        "Rounds Contributed": "73.7"
+    },
+    "NertZ": {
+        "Rating": "1.15",
+        "Kills Per Round": "0.72",
+        "Headshots": "55.1",
+        "Deaths Per Round": "0.64",
+        "Rounds Contributed": "71.0"
+    },
+    "TeSeS": {
+        "Rating": "1.09",
+        "Kills Per Round": "0.70",
+        "Headshots": "54.4",
+        "Deaths Per Round": "0.67",
+        "Rounds Contributed": "70.2"
+    },
+    "nicoodoz": {
+        "Rating": "1.01",
+        "Kills Per Round": "0.64",
+        "Headshots": "48.2",
+        "Deaths Per Round": "0.65",
+        "Rounds Contributed": "70.1"
+    },
+    "sjuush": {
+        "Rating": "1.07",
+        "Kills Per Round": "0.66",
+        "Headshots": "50.5",
+        "Deaths Per Round": "0.65",
+        "Rounds Contributed": "73.0"
+    },
+    "kyxsan": {
+        "Rating": "0.96",
+        "Kills Per Round": "0.58",
+        "Headshots": "51.4",
+        "Deaths Per Round": "0.65",
+        "Rounds Contributed": "69.7"
+    },
+    "EliGE": {
+        "Rating": "1.19",
+        "Kills Per Round": "0.77",
+        "Headshots": "58.9",
+        "Deaths Per Round": "0.68",
+        "Rounds Contributed": "73.1"
+    },
+    "JT": {
+        "Rating": "0.97",
+        "Kills Per Round": "0.62",
+        "Headshots": "51.1",
+        "Deaths Per Round": "0.72",
+        "Rounds Contributed": "69.2"
+    },
+    "floppy": {
+        "Rating": "0.94",
+        "Kills Per Round": "0.54",
+        "Headshots": "56.9",
+        "Deaths Per Round": "0.65",
+        "Rounds Contributed": "72.3"
+    },
+    "hallzerk": {
+        "Rating": "1.11",
+        "Kills Per Round": "0.70",
+        "Headshots": "41.2",
+        "Deaths Per Round": "0.61",
+        "Rounds Contributed": "71.6"
+    },
+    "Grim": {
+        "Rating": "1.03",
+        "Kills Per Round": "0.67",
+        "Headshots": "48.2",
+        "Deaths Per Round": "0.68",
+        "Rounds Contributed": "71.7"
+    },
+    "Snappi": {
+        "Rating": "0.78",
+        "Kills Per Round": "0.47",
+        "Headshots": "55.7",
+        "Deaths Per Round": "0.71",
+        "Rounds Contributed": "62.4"
+    },
+    "dupreeh": {
+        "Rating": "1.17",
+        "Kills Per Round": "0.78",
+        "Headshots": "54.3",
+        "Deaths Per Round": "0.67",
+        "Rounds Contributed": "71.5"
+    },
+    "Magisk": {
+        "Rating": "1.05",
+        "Kills Per Round": "0.64",
+        "Headshots": "54.0",
+        "Deaths Per Round": "0.67",
+        "Rounds Contributed": "74.1"
+    },
+    "Maden": {
+        "Rating": "1.04",
+        "Kills Per Round": "0.66",
+        "Headshots": "52.8",
+        "Deaths Per Round": "0.70",
+        "Rounds Contributed": "70.1"
+    },
+    "SunPayus": {
+        "Rating": "1.10",
+        "Kills Per Round": "0.71",
+        "Headshots": "32.5",
+        "Deaths Per Round": "0.62",
+        "Rounds Contributed": "72.0"
+    },
+    "biguzera": {
+        "Rating": "1.16",
+        "Kills Per Round": "0.72",
+        "Headshots": "56.1",
+        "Deaths Per Round": "0.67",
+        "Rounds Contributed": "73.1"
+    },
+    "nqz": {
+        "Rating": "1.12",
+        "Kills Per Round": "0.69",
+        "Headshots": "32.1",
+        "Deaths Per Round": "0.55",
+        "Rounds Contributed": "74.8"
+    },
+    "kauez": {
+        "Rating": "1.07",
+        "Kills Per Round": "0.70",
+        "Headshots": "61.4",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "71.8"
+    },
+    "snow": {
+        "Rating": "1.18",
+        "Kills Per Round": "0.73",
+        "Headshots": "50.8",
+        "Deaths Per Round": "0.63",
+        "Rounds Contributed": "75.2"
+    },
+    "lux": {
+        "Rating": "1.13",
+        "Kills Per Round": "0.69",
+        "Headshots": "50.8",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "74.8"
+    },
+    "gla1ve": {
+        "Rating": "0.96",
+        "Kills Per Round": "0.58",
+        "Headshots": "55.4",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "71.7"
+    },
+    "Goofy": {
+        "Rating": "1.03",
+        "Kills Per Round": "0.65",
+        "Headshots": "44.0",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "71.1"
+    },
+    "dycha": {
+        "Rating": "0.93",
+        "Kills Per Round": "0.57",
+        "Headshots": "54.6",
+        "Deaths Per Round": "0.70",
+        "Rounds Contributed": "67.2"
+    },
+    "hades": {
+        "Rating": "1.10",
+        "Kills Per Round": "0.71",
+        "Headshots": "34.3",
+        "Deaths Per Round": "0.62",
+        "Rounds Contributed": "70.3"
+    },
+    "Kylar": {
+        "Rating": "1.13",
+        "Kills Per Round": "0.71",
+        "Headshots": "59.9",
+        "Deaths Per Round": "0.67",
+        "Rounds Contributed": "70.3"
+    },
+    "cadiaN": {
+        "Rating": "1.07",
+        "Kills Per Round": "0.63",
+        "Headshots": "31.3",
+        "Deaths Per Round": "0.58",
+        "Rounds Contributed": "74.6"
+    },
+    "NAF": {
+        "Rating": "1.22",
+        "Kills Per Round": "0.75",
+        "Headshots": "53.4",
+        "Deaths Per Round": "0.60",
+        "Rounds Contributed": "77.7"
+    },
+    "Twistzz": {
+        "Rating": "1.22",
+        "Kills Per Round": "0.75",
+        "Headshots": "59.8",
+        "Deaths Per Round": "0.62",
+        "Rounds Contributed": "76.9"
+    },
+    "YEKINDAR": {
+        "Rating": "1.04",
+        "Kills Per Round": "0.63",
+        "Headshots": "60.9",
+        "Deaths Per Round": "0.69",
+        "Rounds Contributed": "70.7"
+    },
+    "skullz": {
+        "Rating": "1.05",
+        "Kills Per Round": "0.67",
+        "Headshots": "54.3",
+        "Deaths Per Round": "0.63",
+        "Rounds Contributed": "72.6"
+    },
+    "exit": {
+        "Rating": "1.17",
+        "Kills Per Round": "0.69",
+        "Headshots": "49.6",
+        "Deaths Per Round": "0.58",
+        "Rounds Contributed": "77.6"
+    },
+    "saffee": {
+        "Rating": "1.16",
+        "Kills Per Round": "0.69",
+        "Headshots": "35.0",
+        "Deaths Per Round": "0.56",
+        "Rounds Contributed": "77.1"
+    },
+    "drop": {
+        "Rating": "1.12",
+        "Kills Per Round": "0.66",
+        "Headshots": "59.4",
+        "Deaths Per Round": "0.61",
+        "Rounds Contributed": "76.5"
+    },
+    "brnz4n": {
+        "Rating": "1.15",
+        "Kills Per Round": "0.69",
+        "Headshots": "64.0",
+        "Deaths Per Round": "0.63",
+        "Rounds Contributed": "76.5"
+    },
+    "insani": {
+        "Rating": "1.26",
+        "Kills Per Round": "0.79",
+        "Headshots": "58.2",
+        "Deaths Per Round": "0.64",
+        "Rounds Contributed": "75.7"
+    },
+    "HEN1": {
+        "Rating": "1.11",
+        "Kills Per Round": "0.65",
+        "Headshots": "33.5",
+        "Deaths Per Round": "0.56",
+        "Rounds Contributed": "73.9"
+    },
+    "felps": {
+        "Rating": "1.17",
+        "Kills Per Round": "0.74",
+        "Headshots": "46.5",
+        "Deaths Per Round": "0.67",
+        "Rounds Contributed": "71.3"
+    },
+    "VINI": {
+        "Rating": "1.00",
+        "Kills Per Round": "0.59",
+        "Headshots": "48.4",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "71.8"
+    },
+    "decenty": {
+        "Rating": "1.09",
+        "Kills Per Round": "0.71",
+        "Headshots": "52.1",
+        "Deaths Per Round": "0.63",
+        "Rounds Contributed": "71.8"
+    },
+    "noway": {
+        "Rating": "1.10",
+        "Kills Per Round": "0.69",
+        "Headshots": "54.0",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "72.6"
+    },
+    "bLitz": {
+        "Rating": "1.20",
+        "Kills Per Round": "0.76",
+        "Headshots": "42.4",
+        "Deaths Per Round": "0.65",
+        "Rounds Contributed": "74.1"
+    },
+    "Techno": {
+        "Rating": "1.10",
+        "Kills Per Round": "0.70",
+        "Headshots": "62.2",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "72.8"
+    },
+    "Senzu": {
+        "Rating": "1.09",
+        "Kills Per Round": "0.68",
+        "Headshots": "59.9",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "70.2"
+    },
+    "mzinho": {
+        "Rating": "1.05",
+        "Kills Per Round": "0.64",
+        "Headshots": "67.9",
+        "Deaths Per Round": "0.65",
+        "Rounds Contributed": "72.4"
+    },
+    "910": {
+        "Rating": "1.09",
+        "Kills Per Round": "0.69",
+        "Headshots": "35.0",
+        "Deaths Per Round": "0.59",
+        "Rounds Contributed": "71.8"
+    },
+    "FalleN": {
+        "Rating": "1.07",
+        "Kills Per Round": "0.67",
+        "Headshots": "34.3",
+        "Deaths Per Round": "0.61",
+        "Rounds Contributed": "70.9"
+    },
+    "chelo": {
+        "Rating": "0.99",
+        "Kills Per Round": "0.60",
+        "Headshots": "58.0",
+        "Deaths Per Round": "0.68",
+        "Rounds Contributed": "69.2"
+    },
+    "yuurih": {
+        "Rating": "1.11",
+        "Kills Per Round": "0.68",
+        "Headshots": "46.4",
+        "Deaths Per Round": "0.64",
+        "Rounds Contributed": "72.8"
+    },
+    "KSCERATO": {
+        "Rating": "1.23",
+        "Kills Per Round": "0.73",
+        "Headshots": "50.0",
+        "Deaths Per Round": "0.60",
+        "Rounds Contributed": "75.9"
+    },
+    "dexter": {
+        "Rating": "1.13",
+        "Kills Per Round": "0.71",
+        "Headshots": "52.8",
+        "Deaths Per Round": "0.68",
+        "Rounds Contributed": "71.5"
+    },
+    "Liazz": {
+        "Rating": "1.11",
+        "Kills Per Round": "0.64",
+        "Headshots": "45.7",
+        "Deaths Per Round": "0.58",
+        "Rounds Contributed": "75.7"
+    },
+    "aliStair": {
+        "Rating": "1.11",
+        "Kills Per Round": "0.66",
+        "Headshots": "28.9",
+        "Deaths Per Round": "0.57",
+        "Rounds Contributed": "74.5"
+    },
+    "INS": {
+        "Rating": "1.26",
+        "Kills Per Round": "0.80",
+        "Headshots": "46.3",
+        "Deaths Per Round": "0.64",
+        "Rounds Contributed": "74.6"
+    },
+    "Vexite": {
+        "Rating": "1.17",
+        "Kills Per Round": "0.75",
+        "Headshots": "54.7",
+        "Deaths Per Round": "0.63",
+        "Rounds Contributed": "74.6"
+    },
+    "MUTiRiS": {
+        "Rating": "1.01",
+        "Kills Per Round": "0.59",
+        "Headshots": "51.4",
+        "Deaths Per Round": "0.63",
+        "Rounds Contributed": "73.3"
+    },
+    "roman": {
+        "Rating": "1.00",
+        "Kills Per Round": "0.60",
+        "Headshots": "55.0",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "72.3"
+    },
+    "story": {
+        "Rating": "1.10",
+        "Kills Per Round": "0.69",
+        "Headshots": "35.7",
+        "Deaths Per Round": "0.61",
+        "Rounds Contributed": "73.0"
+    },
+    "ewjerkz": {
+        "Rating": "1.12",
+        "Kills Per Round": "0.70",
+        "Headshots": "53.7",
+        "Deaths Per Round": "0.68",
+        "Rounds Contributed": "72.7"
+    },
+    "arrozdoce": {
+        "Rating": "1.14",
+        "Kills Per Round": "0.71",
+        "Headshots": "58.9",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "70.6"
+    },
+    "Nodios": {
+        "Rating": "1.05",
+        "Kills Per Round": "0.65",
+        "Headshots": "57.7",
+        "Deaths Per Round": "0.67",
+        "Rounds Contributed": "72.0"
+    },
+    "Patti": {
+        "Rating": "0.98",
+        "Kills Per Round": "0.60",
+        "Headshots": "52.5",
+        "Deaths Per Round": "0.69",
+        "Rounds Contributed": "71.5"
+    },
+    "Queenix": {
+        "Rating": "1.04",
+        "Kills Per Round": "0.65",
+        "Headshots": "60.8",
+        "Deaths Per Round": "0.64",
+        "Rounds Contributed": "71.6"
+    },
+    "kraghen": {
+        "Rating": "1.09",
+        "Kills Per Round": "0.68",
+        "Headshots": "50.8",
+        "Deaths Per Round": "0.68",
+        "Rounds Contributed": "70.4"
+    },
+    "salazar": {
+        "Rating": "1.03",
+        "Kills Per Round": "0.62",
+        "Headshots": "36.6",
+        "Deaths Per Round": "0.59",
+        "Rounds Contributed": "72.1"
+    },
+    "Lack1": {
+        "Rating": "1.10",
+        "Kills Per Round": "0.70",
+        "Headshots": "50.8",
+        "Deaths Per Round": "0.68",
+        "Rounds Contributed": "72.0"
+    },
+    "KENSI": {
+        "Rating": "1.22",
+        "Kills Per Round": "0.75",
+        "Headshots": "49.5",
+        "Deaths Per Round": "0.65",
+        "Rounds Contributed": "76.3"
+    },
+    "Norwi": {
+        "Rating": "1.09",
+        "Kills Per Round": "0.64",
+        "Headshots": "44.3",
+        "Deaths Per Round": "0.62",
+        "Rounds Contributed": "75.4"
+    },
+    "deko": {
+        "Rating": "1.22",
+        "Kills Per Round": "0.76",
+        "Headshots": "42.4",
+        "Deaths Per Round": "0.57",
+        "Rounds Contributed": "77.3"
+    },
+    "r3salt": {
+        "Rating": "1.22",
+        "Kills Per Round": "0.77",
+        "Headshots": "61.1",
+        "Deaths Per Round": "0.64",
+        "Rounds Contributed": "73.1"
+    },
+    "Woro2k": {
+        "Rating": "1.15",
+        "Kills Per Round": "0.75",
+        "Headshots": "38.5",
+        "Deaths Per Round": "0.64",
+        "Rounds Contributed": "70.6"
+    },
+    "DemQQ": {
+        "Rating": "1.17",
+        "Kills Per Round": "0.73",
+        "Headshots": "62.0",
+        "Deaths Per Round": "0.64",
+        "Rounds Contributed": "74.9"
+    },
+    "kRaSnaL": {
+        "Rating": "1.03",
+        "Kills Per Round": "0.63",
+        "Headshots": "53.1",
+        "Deaths Per Round": "0.67",
+        "Rounds Contributed": "72.3"
+    },
+    "ryu": {
+        "Rating": "0.97",
+        "Kills Per Round": "0.61",
+        "Headshots": "56.8",
+        "Deaths Per Round": "0.67",
+        "Rounds Contributed": "73.2"
+    },
+    "Gizmy": {
+        "Rating": "1.01",
+        "Kills Per Round": "0.64",
+        "Headshots": "50.6",
+        "Deaths Per Round": "0.69",
+        "Rounds Contributed": "71.6"
+    },
+    "zorte": {
+        "Rating": "1.10",
+        "Kills Per Round": "0.70",
+        "Headshots": "36.3",
+        "Deaths Per Round": "0.62",
+        "Rounds Contributed": "71.7"
+    },
+    "nafany": {
+        "Rating": "0.91",
+        "Kills Per Round": "0.56",
+        "Headshots": "57.3",
+        "Deaths Per Round": "0.72",
+        "Rounds Contributed": "67.7"
+    },
+    "s1ren": {
+        "Rating": "1.09",
+        "Kills Per Round": "0.68",
+        "Headshots": "58.7",
+        "Deaths Per Round": "0.64",
+        "Rounds Contributed": "73.8"
+    },
+    "KaiR0N-": {
+        "Rating": "1.08",
+        "Kills Per Round": "0.69",
+        "Headshots": "54.5",
+        "Deaths Per Round": "0.69",
+        "Rounds Contributed": "74.1"
+    },
+    "Magnojez": {
+        "Rating": "1.18",
+        "Kills Per Round": "0.74",
+        "Headshots": "55.6",
+        "Deaths Per Round": "0.68",
+        "Rounds Contributed": "73.1"
+    },
+    "Snax": {
+        "Rating": "1.00",
+        "Kills Per Round": "0.63",
+        "Headshots": "44.1",
+        "Deaths Per Round": "0.68",
+        "Rounds Contributed": "69.7"
+    },
+    "volt": {
+        "Rating": "1.05",
+        "Kills Per Round": "0.66",
+        "Headshots": "58.0",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "75.5"
+    },
+    "sl3nd": {
+        "Rating": "1.20",
+        "Kills Per Round": "0.75",
+        "Headshots": "30.6",
+        "Deaths Per Round": "0.58",
+        "Rounds Contributed": "75.4"
+    },
+    "aNdu": {
+        "Rating": "1.16",
+        "Kills Per Round": "0.79",
+        "Headshots": "52.6",
+        "Deaths Per Round": "0.72",
+        "Rounds Contributed": "71.5"
+    },
+    "jkaem": {
+        "Rating": "1.19",
+        "Kills Per Round": "0.76",
+        "Headshots": "53.2",
+        "Deaths Per Round": "0.74",
+        "Rounds Contributed": "73.6"
+    },
+    "nawwk": {
+        "Rating": "1.07",
+        "Kills Per Round": "0.68",
+        "Headshots": "45.0",
+        "Deaths Per Round": "0.56",
+        "Rounds Contributed": "71.8"
+    },
+    "sense": {
+        "Rating": "0.88",
+        "Kills Per Round": "0.54",
+        "Headshots": "51.9",
+        "Deaths Per Round": "0.70",
+        "Rounds Contributed": "68.4"
+    },
+    "CacaNito": {
+        "Rating": "1.04",
+        "Kills Per Round": "0.67",
+        "Headshots": "52.3",
+        "Deaths Per Round": "0.68",
+        "Rounds Contributed": "70.5"
+    },
+    "tabseN": {
+        "Rating": "1.04",
+        "Kills Per Round": "0.64",
+        "Headshots": "51.4",
+        "Deaths Per Round": "0.67",
+        "Rounds Contributed": "72.3"
+    },
+    "syrsoN": {
+        "Rating": "0.97",
+        "Kills Per Round": "0.63",
+        "Headshots": "32.0",
+        "Deaths Per Round": "0.64",
+        "Rounds Contributed": "68.6"
+    },
+    "JDC": {
+        "Rating": "1.11",
+        "Kills Per Round": "0.71",
+        "Headshots": "52.2",
+        "Deaths Per Round": "0.69",
+        "Rounds Contributed": "72.9"
+    },
+    "prosus": {
+        "Rating": "0.96",
+        "Kills Per Round": "0.60",
+        "Headshots": "59.2",
+        "Deaths Per Round": "0.71",
+        "Rounds Contributed": "70.4"
+    },
+    "Krimbo": {
+        "Rating": "1.18",
+        "Kills Per Round": "0.70",
+        "Headshots": "56.2",
+        "Deaths Per Round": "0.57",
+        "Rounds Contributed": "75.4"
+    },
+    "malbsMd": {
+        "Rating": "1.33",
+        "Kills Per Round": "0.85",
+        "Headshots": "66.5",
+        "Deaths Per Round": "0.71",
+        "Rounds Contributed": "75.2"
+    },
+    "slaxz-": {
+        "Rating": "1.14",
+        "Kills Per Round": "0.68",
+        "Headshots": "31.6",
+        "Deaths Per Round": "0.56",
+        "Rounds Contributed": "74.1"
+    },
+    "Swisher": {
+        "Rating": "1.07",
+        "Kills Per Round": "0.66",
+        "Headshots": "43.0",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "73.6"
+    },
+    "reck": {
+        "Rating": "1.06",
+        "Kills Per Round": "0.66",
+        "Headshots": "52.6",
+        "Deaths Per Round": "0.64",
+        "Rounds Contributed": "72.2"
+    },
+    "s1n": {
+        "Rating": "1.16",
+        "Kills Per Round": "0.66",
+        "Headshots": "49.6",
+        "Deaths Per Round": "0.56",
+        "Rounds Contributed": "77.3"
+    },
+    "Maka": {
+        "Rating": "1.13",
+        "Kills Per Round": "0.70",
+        "Headshots": "39.5",
+        "Deaths Per Round": "0.60",
+        "Rounds Contributed": "74.3"
+    },
+    "Lucky": {
+        "Rating": "1.08",
+        "Kills Per Round": "0.64",
+        "Headshots": "42.8",
+        "Deaths Per Round": "0.63",
+        "Rounds Contributed": "73.0"
+    },
+    "Djoko": {
+        "Rating": "1.08",
+        "Kills Per Round": "0.68",
+        "Headshots": "63.5",
+        "Deaths Per Round": "0.70",
+        "Rounds Contributed": "71.1"
+    },
+    "Ex3rcice": {
+        "Rating": "1.04",
+        "Kills Per Round": "0.67",
+        "Headshots": "57.8",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "70.8"
+    },
+    "Graviti": {
+        "Rating": "1.04",
+        "Kills Per Round": "0.67",
+        "Headshots": "59.9",
+        "Deaths Per Round": "0.70",
+        "Rounds Contributed": "72.1"
+    },
+    "drg": {
+        "Rating": "0.97",
+        "Kills Per Round": "0.61",
+        "Headshots": "56.6",
+        "Deaths Per Round": "0.71",
+        "Rounds Contributed": "72.5"
+    },
+    "togs": {
+        "Rating": "1.06",
+        "Kills Per Round": "0.67",
+        "Headshots": "50.0",
+        "Deaths Per Round": "0.64",
+        "Rounds Contributed": "72.7"
+    },
+    "gafolo": {
+        "Rating": "1.04",
+        "Kills Per Round": "0.64",
+        "Headshots": "33.6",
+        "Deaths Per Round": "0.61",
+        "Rounds Contributed": "72.6"
+    },
+    "rdnzao": {
+        "Rating": "1.09",
+        "Kills Per Round": "0.67",
+        "Headshots": "54.0",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "74.9"
+    },
+    "doc": {
+        "Rating": "1.16",
+        "Kills Per Round": "0.74",
+        "Headshots": "53.7",
+        "Deaths Per Round": "0.71",
+        "Rounds Contributed": "72.5"
+    },
+    "BRACE": {
+        "Rating": "0.90",
+        "Kills Per Round": "0.54",
+        "Headshots": "52.9",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "66.8"
+    },
+    "hazr": {
+        "Rating": "1.13",
+        "Kills Per Round": "0.72",
+        "Headshots": "59.0",
+        "Deaths Per Round": "0.70",
+        "Rounds Contributed": "72.5"
+    },
+    "pz": {
+        "Rating": "1.01",
+        "Kills Per Round": "0.63",
+        "Headshots": "38.2",
+        "Deaths Per Round": "0.64",
+        "Rounds Contributed": "69.8"
+    },
+    "damyo": {
+        "Rating": "1.12",
+        "Kills Per Round": "0.72",
+        "Headshots": "53.6",
+        "Deaths Per Round": "0.70",
+        "Rounds Contributed": "73.0"
+    },
+    "ADDICT": {
+        "Rating": "1.13",
+        "Kills Per Round": "0.72",
+        "Headshots": "56.8",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "73.3"
+    },
+    "seized": {
+        "Rating": "0.95",
+        "Kills Per Round": "0.57",
+        "Headshots": "53.5",
+        "Deaths Per Round": "0.68",
+        "Rounds Contributed": "70.6"
+    },
+    "clax": {
+        "Rating": "1.14",
+        "Kills Per Round": "0.72",
+        "Headshots": "58.1",
+        "Deaths Per Round": "0.62",
+        "Rounds Contributed": "75.2"
+    },
+    "iDISBALANCE": {
+        "Rating": "1.09",
+        "Kills Per Round": "0.66",
+        "Headshots": "28.5",
+        "Deaths Per Round": "0.59",
+        "Rounds Contributed": "73.3"
+    },
+    "glowiing": {
+        "Rating": "1.10",
+        "Kills Per Round": "0.69",
+        "Headshots": "55.6",
+        "Deaths Per Round": "0.68",
+        "Rounds Contributed": "72.2"
+    },
+    "d1Ledez": {
+        "Rating": "1.10",
+        "Kills Per Round": "0.70",
+        "Headshots": "61.8",
+        "Deaths Per Round": "0.68",
+        "Rounds Contributed": "73.0"
+    },
+    "alex": {
+        "Rating": "1.04",
+        "Kills Per Round": "0.65",
+        "Headshots": "50.0",
+        "Deaths Per Round": "0.67",
+        "Rounds Contributed": "72.8"
+    },
+    "REZ": {
+        "Rating": "1.09",
+        "Kills Per Round": "0.69",
+        "Headshots": "58.1",
+        "Deaths Per Round": "0.69",
+        "Rounds Contributed": "71.5"
+    },
+    "r1nkle": {
+        "Rating": "1.11",
+        "Kills Per Round": "0.71",
+        "Headshots": "36.6",
+        "Deaths Per Round": "0.62",
+        "Rounds Contributed": "71.1"
+    },
+    "isak": {
+        "Rating": "1.00",
+        "Kills Per Round": "0.62",
+        "Headshots": "52.2",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "70.0"
+    },
+    "maxster": {
+        "Rating": "1.19",
+        "Kills Per Round": "0.75",
+        "Headshots": "58.9",
+        "Deaths Per Round": "0.64",
+        "Rounds Contributed": "76.0"
+    },
+    "PwnAlone": {
+        "Rating": "1.06",
+        "Kills Per Round": "0.68",
+        "Headshots": "30.3",
+        "Deaths Per Round": "0.63",
+        "Rounds Contributed": "71.6"
+    },
+    "Cryptic": {
+        "Rating": "1.03",
+        "Kills Per Round": "0.65",
+        "Headshots": "54.2",
+        "Deaths Per Round": "0.75",
+        "Rounds Contributed": "72.2"
+    },
+    "FaNg": {
+        "Rating": "1.07",
+        "Kills Per Round": "0.69",
+        "Headshots": "57.5",
+        "Deaths Per Round": "0.69",
+        "Rounds Contributed": "70.7"
+    },
+    "freshie": {
+        "Rating": "1.03",
+        "Kills Per Round": "0.63",
+        "Headshots": "51.4",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "72.9"
+    },
+    "d4rty": {
+        "Rating": "0.96",
+        "Kills Per Round": "0.59",
+        "Headshots": "60.9",
+        "Deaths Per Round": "0.67",
+        "Rounds Contributed": "70.7"
+    },
+    "cJ-dA-K1nG": {
+        "Rating": "1.12",
+        "Kills Per Round": "0.70",
+        "Headshots": "51.8",
+        "Deaths Per Round": "0.63",
+        "Rounds Contributed": "75.4"
+    },
+    "junior": {
+        "Rating": "1.21",
+        "Kills Per Round": "0.76",
+        "Headshots": "34.8",
+        "Deaths Per Round": "0.55",
+        "Rounds Contributed": "75.3"
+    },
+    "nosraC": {
+        "Rating": "1.13",
+        "Kills Per Round": "0.69",
+        "Headshots": "50.1",
+        "Deaths Per Round": "0.70",
+        "Rounds Contributed": "72.7"
+    },
+    "CLASIA": {
+        "Rating": "1.10",
+        "Kills Per Round": "0.67",
+        "Headshots": "51.0",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "76.5"
+    },
+    "Jeorge": {
+        "Rating": "1.21",
+        "Kills Per Round": "0.77",
+        "Headshots": "52.7",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "75.6"
+    },
+    "Boombl4": {
+        "Rating": "1.02",
+        "Kills Per Round": "0.63",
+        "Headshots": "38.6",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "71.4"
+    },
+    "Ax1Le": {
+        "Rating": "1.12",
+        "Kills Per Round": "0.67",
+        "Headshots": "49.5",
+        "Deaths Per Round": "0.64",
+        "Rounds Contributed": "73.2"
+    },
+    "arT": {
+        "Rating": "1.06",
+        "Kills Per Round": "0.65",
+        "Headshots": "45.2",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "72.7"
+    },
+    "Lucaozy": {
+        "Rating": "1.28",
+        "Kills Per Round": "0.79",
+        "Headshots": "51.5",
+        "Deaths Per Round": "0.61",
+        "Rounds Contributed": "75.5"
+    },
+    "zevy": {
+        "Rating": "1.12",
+        "Kills Per Round": "0.71",
+        "Headshots": "37.5",
+        "Deaths Per Round": "0.60",
+        "Rounds Contributed": "72.8"
+    },
+    "chayJESUS": {
+        "Rating": "1.15",
+        "Kills Per Round": "0.71",
+        "Headshots": "53.5",
+        "Deaths Per Round": "0.62",
+        "Rounds Contributed": "75.1"
+    },
+    "nicks": {
+        "Rating": "1.06",
+        "Kills Per Round": "0.62",
+        "Headshots": "52.3",
+        "Deaths Per Round": "0.61",
+        "Rounds Contributed": "72.2"
+    },
+    "Aaron": {
+        "Rating": "1.02",
+        "Kills Per Round": "0.68",
+        "Headshots": "52.2",
+        "Deaths Per Round": "0.73",
+        "Rounds Contributed": "68.3"
+    },
+    "Ciocardau": {
+        "Rating": "1.02",
+        "Kills Per Round": "0.63",
+        "Headshots": "64.4",
+        "Deaths Per Round": "0.72",
+        "Rounds Contributed": "72.0"
+    },
+    "Porya": {
+        "Rating": "1.05",
+        "Kills Per Round": "0.70",
+        "Headshots": "51.7",
+        "Deaths Per Round": "0.69",
+        "Rounds Contributed": "70.5"
+    },
+    "Bibu": {
+        "Rating": "0.91",
+        "Kills Per Round": "0.59",
+        "Headshots": "54.6",
+        "Deaths Per Round": "0.72",
+        "Rounds Contributed": "69.8"
+    },
+    "DGL": {
+        "Rating": "1.08",
+        "Kills Per Round": "0.70",
+        "Headshots": "37.7",
+        "Deaths Per Round": "0.64",
+        "Rounds Contributed": "72.2"
+    },
+    "KRIMZ": {
+        "Rating": "1.06",
+        "Kills Per Round": "0.66",
+        "Headshots": "45.3",
+        "Deaths Per Round": "0.62",
+        "Rounds Contributed": "71.7"
+    },
+    "bodyy": {
+        "Rating": "1.06",
+        "Kills Per Round": "0.64",
+        "Headshots": "57.4",
+        "Deaths Per Round": "0.69",
+        "Rounds Contributed": "71.7"
+    },
+    "afro": {
+        "Rating": "1.04",
+        "Kills Per Round": "0.65",
+        "Headshots": "31.8",
+        "Deaths Per Round": "0.62",
+        "Rounds Contributed": "71.3"
+    },
+    "kyuubii": {
+        "Rating": "1.05",
+        "Kills Per Round": "0.66",
+        "Headshots": "49.0",
+        "Deaths Per Round": "0.65",
+        "Rounds Contributed": "72.4"
+    },
+    "MATYS": {
+        "Rating": "1.10",
+        "Kills Per Round": "0.71",
+        "Headshots": "62.8",
+        "Deaths Per Round": "0.70",
+        "Rounds Contributed": "71.6"
+    },
+    "max": {
+        "Rating": "1.11",
+        "Kills Per Round": "0.67",
+        "Headshots": "49.9",
+        "Deaths Per Round": "0.67",
+        "Rounds Contributed": "72.5"
+    },
+    "dgt": {
+        "Rating": "1.18",
+        "Kills Per Round": "0.74",
+        "Headshots": "52.6",
+        "Deaths Per Round": "0.61",
+        "Rounds Contributed": "73.5"
+    },
+    "buda": {
+        "Rating": "1.00",
+        "Kills Per Round": "0.58",
+        "Headshots": "58.5",
+        "Deaths Per Round": "0.63",
+        "Rounds Contributed": "72.9"
+    },
+    "MartinezSa": {
+        "Rating": "1.22",
+        "Kills Per Round": "0.77",
+        "Headshots": "34.2",
+        "Deaths Per Round": "0.57",
+        "Rounds Contributed": "73.8"
+    },
+    "HUASOPEEK": {
+        "Rating": "1.07",
+        "Kills Per Round": "0.67",
+        "Headshots": "57.7",
+        "Deaths Per Round": "0.63",
+        "Rounds Contributed": "74.6"
+    },
+    "Jee": {
+        "Rating": "1.07",
+        "Kills Per Round": "0.66",
+        "Headshots": "30.6",
+        "Deaths Per Round": "0.59",
+        "Rounds Contributed": "74.6"
+    },
+    "Westmelon": {
+        "Rating": "1.14",
+        "Kills Per Round": "0.72",
+        "Headshots": "57.9",
+        "Deaths Per Round": "0.68",
+        "Rounds Contributed": "74.4"
+    },
+    "z4kr": {
+        "Rating": "1.01",
+        "Kills Per Round": "0.61",
+        "Headshots": "61.4",
+        "Deaths Per Round": "0.68",
+        "Rounds Contributed": "70.9"
+    },
+    "Starry": {
+        "Rating": "1.18",
+        "Kills Per Round": "0.75",
+        "Headshots": "59.0",
+        "Deaths Per Round": "0.65",
+        "Rounds Contributed": "73.9"
+    },
+    "EmiliaQAQ": {
+        "Rating": "1.02",
+        "Kills Per Round": "0.63",
+        "Headshots": "60.3",
+        "Deaths Per Round": "0.64",
+        "Rounds Contributed": "73.8"
+    },
+    "neaLaN": {
+        "Rating": "1.01",
+        "Kills Per Round": "0.62",
+        "Headshots": "57.8",
+        "Deaths Per Round": "0.68",
+        "Rounds Contributed": "72.4"
+    },
+    "buster": {
+        "Rating": "1.05",
+        "Kills Per Round": "0.63",
+        "Headshots": "54.6",
+        "Deaths Per Round": "0.64",
+        "Rounds Contributed": "71.8"
+    },
+    "Jyo": {
+        "Rating": "1.15",
+        "Kills Per Round": "0.70",
+        "Headshots": "51.2",
+        "Deaths Per Round": "0.65",
+        "Rounds Contributed": "75.5"
+    },
+    "Ryujin": {
+        "Rating": "1.07",
+        "Kills Per Round": "0.68",
+        "Headshots": "59.3",
+        "Deaths Per Round": "0.67",
+        "Rounds Contributed": "72.0"
+    },
+    "lattykk": {
+        "Rating": "1.18",
+        "Kills Per Round": "0.74",
+        "Headshots": "36.3",
+        "Deaths Per Round": "0.54",
+        "Rounds Contributed": "74.7"
+    },
+    "Noktse": {
+        "Rating": "0.98",
+        "Kills Per Round": "0.63",
+        "Headshots": "33.5",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "67.7"
+    },
+    "meyern": {
+        "Rating": "1.13",
+        "Kills Per Round": "0.70",
+        "Headshots": "57.4",
+        "Deaths Per Round": "0.65",
+        "Rounds Contributed": "73.7"
+    },
+    "luchov": {
+        "Rating": "1.02",
+        "Kills Per Round": "0.64",
+        "Headshots": "65.9",
+        "Deaths Per Round": "0.72",
+        "Rounds Contributed": "69.0"
+    },
+    "naz": {
+        "Rating": "0.97",
+        "Kills Per Round": "0.62",
+        "Headshots": "59.2",
+        "Deaths Per Round": "0.70",
+        "Rounds Contributed": "67.6"
+    },
+    "tomaszin": {
+        "Rating": "1.05",
+        "Kills Per Round": "0.70",
+        "Headshots": "55.0",
+        "Deaths Per Round": "0.68",
+        "Rounds Contributed": "71.2"
+    },
+    "iDk": {
+        "Rating": "0.86",
+        "Kills Per Round": "0.50",
+        "Headshots": "54.4",
+        "Deaths Per Round": "0.68",
+        "Rounds Contributed": "64.0"
+    },
+    "shz": {
+        "Rating": "1.09",
+        "Kills Per Round": "0.66",
+        "Headshots": "51.8",
+        "Deaths Per Round": "0.63",
+        "Rounds Contributed": "73.5"
+    },
+    "pesadelo": {
+        "Rating": "1.09",
+        "Kills Per Round": "0.70",
+        "Headshots": "54.1",
+        "Deaths Per Round": "0.72",
+        "Rounds Contributed": "67.4"
+    },
+    "f4stzin": {
+        "Rating": "1.06",
+        "Kills Per Round": "0.68",
+        "Headshots": "53.7",
+        "Deaths Per Round": "0.69",
+        "Rounds Contributed": "70.4"
+    },
+    "cass1n": {
+        "Rating": "0.91",
+        "Kills Per Round": "0.54",
+        "Headshots": "33.3",
+        "Deaths Per Round": "0.59",
+        "Rounds Contributed": "66.8"
+    },
+    "SELLTER": {
+        "Rating": "0.97",
+        "Kills Per Round": "0.60",
+        "Headshots": "50.8",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "70.2"
+    },
+    "NickelBack": {
+        "Rating": "0.89",
+        "Kills Per Round": "0.55",
+        "Headshots": "43.8",
+        "Deaths Per Round": "0.73",
+        "Rounds Contributed": "68.1"
+    },
+    "tN1R": {
+        "Rating": "1.04",
+        "Kills Per Round": "0.66",
+        "Headshots": "53.9",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "70.1"
+    },
+    "shalfey": {
+        "Rating": "1.11",
+        "Kills Per Round": "0.71",
+        "Headshots": "50.9",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "71.3"
+    },
+    "smooya": {
+        "Rating": "1.29",
+        "Kills Per Round": "0.83",
+        "Headshots": "33.9",
+        "Deaths Per Round": "0.61",
+        "Rounds Contributed": "77.5"
+    },
+    "Kristou": {
+        "Rating": "1.04",
+        "Kills Per Round": "0.65",
+        "Headshots": "43.1",
+        "Deaths Per Round": "0.65",
+        "Rounds Contributed": "70.2"
+    },
+    "n1Xen": {
+        "Rating": "1.08",
+        "Kills Per Round": "0.71",
+        "Headshots": "50.5",
+        "Deaths Per Round": "0.67",
+        "Rounds Contributed": "74.5"
+    },
+    "Maze": {
+        "Rating": "0.90",
+        "Kills Per Round": "0.55",
+        "Headshots": "52.2",
+        "Deaths Per Round": "0.68",
+        "Rounds Contributed": "70.1"
+    },
+    "Anlelele": {
+        "Rating": "1.04",
+        "Kills Per Round": "0.65",
+        "Headshots": "50.2",
+        "Deaths Per Round": "0.65",
+        "Rounds Contributed": "72.4"
+    },
+    "nut nut": {
+        "Rating": "1.18",
+        "Kills Per Round": "0.66",
+        "Headshots": "63.2",
+        "Deaths Per Round": "0.60",
+        "Rounds Contributed": "78.3"
+    },
+    "JUST": {
+        "Rating": "1.04",
+        "Kills Per Round": "0.65",
+        "Headshots": "54.7",
+        "Deaths Per Round": "0.65",
+        "Rounds Contributed": "72.7"
+    },
+    "mopoz": {
+        "Rating": "1.11",
+        "Kills Per Round": "0.71",
+        "Headshots": "54.5",
+        "Deaths Per Round": "0.67",
+        "Rounds Contributed": "71.3"
+    },
+    "stadodo": {
+        "Rating": "1.07",
+        "Kills Per Round": "0.64",
+        "Headshots": "35.4",
+        "Deaths Per Round": "0.58",
+        "Rounds Contributed": "74.1"
+    },
+    "dav1g": {
+        "Rating": "0.99",
+        "Kills Per Round": "0.59",
+        "Headshots": "48.2",
+        "Deaths Per Round": "0.68",
+        "Rounds Contributed": "72.0"
+    },
+    "adamS": {
+        "Rating": "1.16",
+        "Kills Per Round": "0.70",
+        "Headshots": "39.5",
+        "Deaths Per Round": "0.65",
+        "Rounds Contributed": "75.3"
+    },
+    "Xant3r": {
+        "Rating": "1.14",
+        "Kills Per Round": "0.69",
+        "Headshots": "52.6",
+        "Deaths Per Round": "0.65",
+        "Rounds Contributed": "73.5"
+    },
+    "1eeR": {
+        "Rating": "1.06",
+        "Kills Per Round": "0.66",
+        "Headshots": "46.0",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "72.9"
+    },
+    "riskyb0b": {
+        "Rating": "1.05",
+        "Kills Per Round": "0.62",
+        "Headshots": "55.3",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "72.6"
+    },
+    "khaN": {
+        "Rating": "1.10",
+        "Kills Per Round": "0.69",
+        "Headshots": "36.2",
+        "Deaths Per Round": "0.60",
+        "Rounds Contributed": "73.9"
+    },
+    "FL4MUS": {
+        "Rating": "1.18",
+        "Kills Per Round": "0.77",
+        "Headshots": "63.6",
+        "Deaths Per Round": "0.68",
+        "Rounds Contributed": "73.1"
+    },
+    "oskar": {
+        "Rating": "1.10",
+        "Kills Per Round": "0.72",
+        "Headshots": "32.7",
+        "Deaths Per Round": "0.62",
+        "Rounds Contributed": "70.5"
+    },
+    "beastik": {
+        "Rating": "1.01",
+        "Kills Per Round": "0.64",
+        "Headshots": "58.2",
+        "Deaths Per Round": "0.68",
+        "Rounds Contributed": "71.8"
+    },
+    "SHOCK": {
+        "Rating": "1.04",
+        "Kills Per Round": "0.66",
+        "Headshots": "53.3",
+        "Deaths Per Round": "0.65",
+        "Rounds Contributed": "69.9"
+    },
+    "AJTT": {
+        "Rating": "0.92",
+        "Kills Per Round": "0.57",
+        "Headshots": "47.4",
+        "Deaths Per Round": "0.69",
+        "Rounds Contributed": "69.9"
+    },
+    "NEOFRAG": {
+        "Rating": "1.10",
+        "Kills Per Round": "0.70",
+        "Headshots": "57.5",
+        "Deaths Per Round": "0.70",
+        "Rounds Contributed": "71.0"
+    },
+    "coldzera": {
+        "Rating": "1.22",
+        "Kills Per Round": "0.77",
+        "Headshots": "45.8",
+        "Deaths Per Round": "0.62",
+        "Rounds Contributed": "75.2"
+    },
+    "hardzao": {
+        "Rating": "1.07",
+        "Kills Per Round": "0.65",
+        "Headshots": "51.4",
+        "Deaths Per Round": "0.62",
+        "Rounds Contributed": "71.8"
+    },
+    "nython": {
+        "Rating": "0.99",
+        "Kills Per Round": "0.59",
+        "Headshots": "36.4",
+        "Deaths Per Round": "0.58",
+        "Rounds Contributed": "72.1"
+    },
+    "dav1deuS": {
+        "Rating": "1.27",
+        "Kills Per Round": "0.81",
+        "Headshots": "54.2",
+        "Deaths Per Round": "0.65",
+        "Rounds Contributed": "75.9"
+    },
+    "venomzera": {
+        "Rating": "1.18",
+        "Kills Per Round": "0.72",
+        "Headshots": "59.7",
+        "Deaths Per Round": "0.64",
+        "Rounds Contributed": "73.9"
+    },
+    "CRUC1AL": {
+        "Rating": "1.14",
+        "Kills Per Round": "0.72",
+        "Headshots": "34.9",
+        "Deaths Per Round": "0.62",
+        "Rounds Contributed": "72.4"
+    },
+    "MiGHTYMAX": {
+        "Rating": "0.95",
+        "Kills Per Round": "0.56",
+        "Headshots": "58.4",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "70.0"
+    },
+    "Surreal": {
+        "Rating": "1.15",
+        "Kills Per Round": "0.71",
+        "Headshots": "50.9",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "73.5"
+    },
+    "AZUWU": {
+        "Rating": "1.07",
+        "Kills Per Round": "0.67",
+        "Headshots": "58.6",
+        "Deaths Per Round": "0.68",
+        "Rounds Contributed": "71.4"
+    },
+    "cej0t": {
+        "Rating": "1.04",
+        "Kills Per Round": "0.68",
+        "Headshots": "57.0",
+        "Deaths Per Round": "0.68",
+        "Rounds Contributed": "69.3"
+    },
+    "advent": {
+        "Rating": "0.77",
+        "Kills Per Round": "0.46",
+        "Headshots": "57.8",
+        "Deaths Per Round": "0.71",
+        "Rounds Contributed": "65.1"
+    },
+    "kaze": {
+        "Rating": "1.00",
+        "Kills Per Round": "0.60",
+        "Headshots": "33.1",
+        "Deaths Per Round": "0.57",
+        "Rounds Contributed": "71.8"
+    },
+    "JamYoung": {
+        "Rating": "1.17",
+        "Kills Per Round": "0.78",
+        "Headshots": "59.0",
+        "Deaths Per Round": "0.70",
+        "Rounds Contributed": "69.9"
+    },
+    "Mercury": {
+        "Rating": "1.13",
+        "Kills Per Round": "0.73",
+        "Headshots": "61.5",
+        "Deaths Per Round": "0.69",
+        "Rounds Contributed": "70.2"
+    },
+    "zdr": {
+        "Rating": "0.88",
+        "Kills Per Round": "0.54",
+        "Headshots": "61.7",
+        "Deaths Per Round": "0.65",
+        "Rounds Contributed": "66.3"
+    },
+    "WOOD7": {
+        "Rating": "0.97",
+        "Kills Per Round": "0.58",
+        "Headshots": "32.7",
+        "Deaths Per Round": "0.65",
+        "Rounds Contributed": "70.9"
+    },
+    "ponter": {
+        "Rating": "0.99",
+        "Kills Per Round": "0.62",
+        "Headshots": "49.2",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "70.0"
+    },
+    "Tuurtle": {
+        "Rating": "1.00",
+        "Kills Per Round": "0.63",
+        "Headshots": "57.7",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "70.4"
+    },
+    "naitte": {
+        "Rating": "1.06",
+        "Kills Per Round": "0.69",
+        "Headshots": "62.3",
+        "Deaths Per Round": "0.72",
+        "Rounds Contributed": "70.1"
+    },
+    "matios": {
+        "Rating": "1.07",
+        "Kills Per Round": "0.69",
+        "Headshots": "54.0",
+        "Deaths Per Round": "0.67",
+        "Rounds Contributed": "71.8"
+    },
+    "TOAO": {
+        "Rating": "0.95",
+        "Kills Per Round": "0.60",
+        "Headshots": "54.7",
+        "Deaths Per Round": "0.72",
+        "Rounds Contributed": "67.1"
+    },
+    "Demho": {
+        "Rating": "1.05",
+        "Kills Per Round": "0.67",
+        "Headshots": "50.1",
+        "Deaths Per Round": "0.69",
+        "Rounds Contributed": "69.7"
+    },
+    "fr3nd": {
+        "Rating": "1.11",
+        "Kills Per Round": "0.71",
+        "Headshots": "39.4",
+        "Deaths Per Round": "0.63",
+        "Rounds Contributed": "71.4"
+    },
+    "bajmi": {
+        "Rating": "1.09",
+        "Kills Per Round": "0.68",
+        "Headshots": "50.4",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "73.2"
+    },
+    "ex1st": {
+        "Rating": "0.97",
+        "Kills Per Round": "0.62",
+        "Headshots": "57.8",
+        "Deaths Per Round": "0.71",
+        "Rounds Contributed": "68.8"
+    },
+    "rigoN": {
+        "Rating": "1.06",
+        "Kills Per Round": "0.73",
+        "Headshots": "53.0",
+        "Deaths Per Round": "0.75",
+        "Rounds Contributed": "69.2"
+    },
+    "SENER1": {
+        "Rating": "0.92",
+        "Kills Per Round": "0.55",
+        "Headshots": "48.3",
+        "Deaths Per Round": "0.69",
+        "Rounds Contributed": "71.7"
+    },
+    "juanflatroo": {
+        "Rating": "1.09",
+        "Kills Per Round": "0.73",
+        "Headshots": "62.6",
+        "Deaths Per Round": "0.74",
+        "Rounds Contributed": "72.6"
+    },
+    "sinnopsyy": {
+        "Rating": "1.05",
+        "Kills Per Round": "0.66",
+        "Headshots": "58.9",
+        "Deaths Per Round": "0.71",
+        "Rounds Contributed": "69.4"
+    },
+    "gxx-": {
+        "Rating": "0.96",
+        "Kills Per Round": "0.62",
+        "Headshots": "36.4",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "69.2"
+    },
+    "kye": {
+        "Rating": "0.95",
+        "Kills Per Round": "0.64",
+        "Headshots": "60.8",
+        "Deaths Per Round": "0.70",
+        "Rounds Contributed": "65.2"
+    },
+    "xKacpersky": {
+        "Rating": "1.00",
+        "Kills Per Round": "0.66",
+        "Headshots": "49.8",
+        "Deaths Per Round": "0.79",
+        "Rounds Contributed": "67.0"
+    },
+    "STYKO": {
+        "Rating": "0.99",
+        "Kills Per Round": "0.62",
+        "Headshots": "54.8",
+        "Deaths Per Round": "0.65",
+        "Rounds Contributed": "70.2"
+    },
+    "n1ssim": {
+        "Rating": "1.07",
+        "Kills Per Round": "0.67",
+        "Headshots": "47.5",
+        "Deaths Per Round": "0.65",
+        "Rounds Contributed": "71.0"
+    },
+    "mir": {
+        "Rating": "1.06",
+        "Kills Per Round": "0.63",
+        "Headshots": "51.7",
+        "Deaths Per Round": "0.63",
+        "Rounds Contributed": "73.2"
+    },
+    "Perfecto": {
+        "Rating": "1.05",
+        "Kills Per Round": "0.62",
+        "Headshots": "45.3",
+        "Deaths Per Round": "0.57",
+        "Rounds Contributed": "75.2"
+    },
+    "k0nfig": {
+        "Rating": "0.88",
+        "Kills Per Round": "0.64",
+        "Headshots": "59.4",
+        "Deaths Per Round": "0.72",
+        "Rounds Contributed": "63.0"
+    },
+    "sdy": {
+        "Rating": "1.19",
+        "Kills Per Round": "0.75",
+        "Headshots": "57.0",
+        "Deaths Per Round": "0.63",
+        "Rounds Contributed": "73.6"
+    },
+    "BluePho3nix": {
+        "Rating": "0.98",
+        "Kills Per Round": "0.61",
+        "Headshots": "57.1",
+        "Deaths Per Round": "0.68",
+        "Rounds Contributed": "70.8"
+    },
+    "HObbit": {
+        "Rating": "1.14",
+        "Kills Per Round": "0.69",
+        "Headshots": "49.1",
+        "Deaths Per Round": "0.63",
+        "Rounds Contributed": "73.2"
+    },
+    "es3tag": {
+        "Rating": "0.81",
+        "Kills Per Round": "0.46",
+        "Headshots": "43.5",
+        "Deaths Per Round": "0.66",
+        "Rounds Contributed": "67.0"
+    },
+    "danistzz": {
+        "Rating": "1.01",
+        "Kills Per Round": "0.65",
+        "Headshots": "59.3",
+        "Deaths Per Round": "0.68",
+        "Rounds Contributed": "71.7"
+    },
+    "BOROS": {
+        "Rating": "0.92",
+        "Kills Per Round": "0.61",
+        "Headshots": "62.8",
+        "Deaths Per Round": "0.73",
+        "Rounds Contributed": "59.4"
+    },
+    "headtr1ck": {
+        "Rating": "1.17",
+        "Kills Per Round": "0.74",
+        "Headshots": "33.6",
+        "Deaths Per Round": "0.61",
+        "Rounds Contributed": "75.8"
+    }
+}
