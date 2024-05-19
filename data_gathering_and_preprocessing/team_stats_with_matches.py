@@ -106,7 +106,6 @@ def get_player_stats(player_url):
             #         print(f"Failed to retrieve all stats page: {response.status_code}")
             return 'N/A'  # Default if stat not found
 
-        # Define the stats to extract
         stats = {
             'Rating': extract_stat('Rating 2.0'),
             'Headshot': extract_stat('Headshot %', 'Headshots') if extract_stat('Headshot %', 'Headshots') != 'N/A' else 'N/A',
@@ -136,19 +135,14 @@ def get_team_ranking(team_page_soup):
     ranking_anchor = team_page_soup.select_one('.profile-team-stats-container a.rankingLink')
     if ranking_anchor and 'href' in ranking_anchor.attrs:
         ranking_url = prefix + ranking_anchor['href']
-        # If needed, make a request to the ranking URL to extract more details
-        # ...
     ranking_text = ranking_anchor.text if ranking_anchor else 'Not found'
     return ranking_text
 
 def get_team_ranking(html):
-    # Create a BeautifulSoup object
     soup = BeautifulSoup(html, 'html.parser')
     
-    # Select the span with class 'right' which contains the ranking inside the profile team stats container
     ranking_span = soup.select_one('.profile-team-stats-container .right')
     if ranking_span and ranking_span.text:
-        # Extract the ranking number, assuming it's the first element after the hash
         ranking_text = ranking_span.text.strip()
         ranking_number = ranking_text.lstrip('#')
         return ranking_number

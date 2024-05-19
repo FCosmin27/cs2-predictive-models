@@ -39,12 +39,12 @@ for demo_file in demo_files:
             'balance': 'player_{}_balance'
         }
 
-        round_df = pd.DataFrame()  # Reset DataFrame for each round
-        player_idx = 1  # Reset player index for each round
+        round_df = pd.DataFrame()
+        player_idx = 1
 
         for idx, row in group.iterrows():
             if player_idx > 10:
-                break  # Limit to 10 players per round
+                break
             for key, val in pivot_columns.items():
                 round_df[val.format(player_idx)] = [row[key]]
             player_idx += 1
