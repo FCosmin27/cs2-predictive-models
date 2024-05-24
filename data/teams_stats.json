@@ -222,5 +222,73 @@
     "Guild Eagles": {
         "position": "63",
         "win_percentage": "40.0"
+    },
+    "AMKAL": {
+        "position": "31",
+        "win_percentage": "58.8"
+    },
+    "Badass": {
+        "position": "200",
+        "win_percentage": "0"
+    },
+    "FLUFFY AIMERS": {
+        "position": "102",
+        "win_percentage": "36.0"
+    },
+    "PARIVISION": {
+        "position": "102",
+        "win_percentage": "36.0"
+    },
+    "SASHI": {
+        "position": "30",
+        "win_percentage": "77.8"
+    },
+    "huge sweaty": {
+        "position": "222",
+        "win_percentage": "0"
+    },
+    "LOS": {
+        "position": "223",
+        "win_percentage": "0"
+    },
+    "OG": {
+        "position": "32",
+        "win_percentage": "47.1"
+    },
+    "Wildcard": {
+        "position": "54",
+        "win_percentage": "60.9"
+    },
+    "Preasy": {
+        "position": "138",
+        "win_percentage": "54.2"
+    },
+    "PartyAstronauts": {
+        "position": "61",
+        "win_percentage": "66.7"
+    },
+    "Elevate": {
+        "position": "63",
+        "win_percentage": "59.0"
+    },
+    "B8": {
+        "position": "34",
+        "win_percentage": "62.0"
+    },
+    "Entropiq": {
+        "position": "90",
+        "win_percentage": "41.7"
+    },
+    "NRG": {
+        "position": "59",
+        "win_percentage": "61.4"
+    },
+    "Rooster": {
+        "position": "60",
+        "win_percentage": "68.2"
+    },
+    "EYEBALLERS": {
+        "position": "60",
+        "win_percentage": "68.2"
     }
 }
