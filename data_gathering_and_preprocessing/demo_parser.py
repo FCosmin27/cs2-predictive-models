@@ -1,8 +1,11 @@
 import pandas as pd
 import os
 from demoparser2 import DemoParser
+import time
 
-demo_files = [f for f in os.listdir("../demos/") if f.endswith(".dem")]
+duration = time.time()
+
+demo_files = [f for f in os.listdir("../=demos/") if f.endswith(".dem")]
 all_rounds_data = []
 
 for demo_file in demo_files:
@@ -55,4 +58,6 @@ for demo_file in demo_files:
         all_rounds_data.append(round_df)
 
 final_df = pd.concat(all_rounds_data, ignore_index=True)
-final_df.to_csv('data.csv', index=False)
+final_df.to_csv('data/data.csv', index=False)
+
+print(f"Duration: {time.time() - duration}")
