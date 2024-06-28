@@ -86,25 +86,7 @@ def get_player_stats(player_url):
             stat = soup.select_one(f'.player-stat:has(> b:-soup-contains("{label}")) .statsVal')
             if stat:
                 return stat.text.strip()
-            # else:
-            #     info = player_url.split("/")
-            #     all_stats_url = prefix+"/stats/players/"+ info[-2] + "/" + info[-1]
-            #     #print("All stats url: ", all_stats_url)
-            #     response = requests.get(all_stats_url, headers=headers)
-            #     if response.status_code == 200:
-            #         new_soup = BeautifulSoup(response.text, 'html.parser')
-            
-            #         # Attempt to find the stats in the new response
-            #         stats_rows = new_soup.find_all('div', class_='stats-row')
-            #         for row in stats_rows:
-            #             label_span = row.find('span')
-            #             if label_span and new_label in label_span.text.strip():
-            #                 value_span = label_span.find_next_sibling('span')
-            #                 if value_span:
-            #                     return value_span.text.strip()
-            #     else:
-            #         print(f"Failed to retrieve all stats page: {response.status_code}")
-            return 'N/A'  # Default if stat not found
+            return 'N/A'
 
         stats = {
             'Rating': extract_stat('Rating 2.0'),
