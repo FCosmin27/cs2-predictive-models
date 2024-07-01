@@ -20,10 +20,10 @@ for demo_file in demo_files:
     player_data = parser.parse_ticks(wanted_props, ticks=wanted_ticks)
     
     round_end_data = parser.parse_event("round_end")[['tick', 'winner']]
-    round_end_data['total_rounds_played'] = range(len(round_end_data))  # Manual computation of rounds
+    round_end_data['total_rounds_played'] = range(len(round_end_data))
 
     grouped_player_data = player_data.groupby('total_rounds_played')
-    grouped_round_end_data = round_end_data.groupby('total_rounds_played').last()  # Last winner tick per round
+    grouped_round_end_data = round_end_data.groupby('total_rounds_played').last()
 
     for name, group in grouped_player_data:
         round_winner = grouped_round_end_data.loc[name, 'winner'] if name in grouped_round_end_data.index else None

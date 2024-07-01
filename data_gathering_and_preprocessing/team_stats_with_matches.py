@@ -233,7 +233,7 @@ def main():
         if matches:
             teams_data[team_name]['matches'] = matches
 
-    with open('teams_data.json', 'w') as outfile:
+    with open('teams_data_with_matches.json', 'w') as outfile:
         json.dump(teams_data, outfile, indent=4)                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
 
 
