@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Round Prediction</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h1>CS Round Prediction</h1>
+    <form id="match-form">
+        <div id="players-container">
+            <div class="player">
+                <h3>Player 1</h3>
+                <div class="form-group-container">
+                    <div class="form-group">
+                        <label>Team:</label>
+                        <input type="number" name="team" value="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Kills:</label>
+                        <input type="number" name="kills" value="11" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Deaths:</label>
+                        <input type="number" name="deaths" value="11" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Defuse Kit (0 or 1):</label>
+                        <input type="number" name="defuse_kit" value="0" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Helmet (0 or 1):</label>
+                        <input type="number" name="helmet" value="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Armor (0-100):</label>
+                        <input type="number" name="armor" value="100" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Equipment Value:</label>
+                        <input type="number" name="equipment_value" value="4200" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Money:</label>
+                        <input type="number" name="money" value="150" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Primary Weapon:</label>
+                        <select name="primary_weapon">
+                            <option value="AK-47" selected>AK-47</option>
+                            <option value="M4A1-S">M4A1-S</option>
+                            <option value="M4A4">M4A4</option>
+                            <option value="AWP">AWP</option>
+                            <option value="AUG">AUG</option>
+                            <option value="SG 553">SG 553</option>
+                            <option value="FAMAS">FAMAS</option>
+                            <option value="Galil AR">Galil AR</option>
+                            <option value="Scar-20">Scar-20</option>
+                            <option value="G3SG1">G3SG1</option>
+                            <option value="MP5-SD">MP5-SD</option>
+                            <option value="UMP-45">UMP-45</option>
+                            <option value="P90">P90</option>
+                            <option value="MAC-10">MAC-10</option>
+                            <option value="MP7">MP7</option>
+                            <option value="MP9">MP9</option>
+                            <option value="PP-Bizon">PP-Bizon</option>
+                            <option value="Negev">Negev</option>
+                            <option value="M249">M249</option>
+                            <option value="Nova">Nova</option>
+                            <option value="XM1014">XM1014</option>
+                            <option value="Sawed-Off">Sawed-Off</option>
+                            <option value="MAG-7">MAG-7</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Secondary Weapon:</label>
+                        <select name="secondary_weapon">
+                            <option value="P2000">P2000</option>
+                            <option value="USP-S" selected>USP-S</option>
+                            <option value="Glock-18">Glock-18</option>
+                            <option value="P250">P250</option>
+                            <option value="Five-SeveN">Five-SeveN</option>
+                            <option value="Tec-9">Tec-9</option>
+                            <option value="CZ75-Auto">CZ75-Auto</option>
+                            <option value="Desert Eagle">Desert Eagle</option>
+                            <option value="R8 Revolver">R8 Revolver</option>
+                            <option value="Dual Berettas">Dual Berettas</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Grenades:</label>
+                        <select name="grenades" multiple>
+                            <option value="Smoke Grenade" selected>Smoke Grenade</option>
+                            <option value="High Explosive Grenade">High Explosive Grenade</option>
+                            <option value="Flashbang">Flashbang</option>
+                            <option value="Incendiary Grenade">Incendiary Grenade</option>
+                            <option value="Molotov">Molotov</option>
+                            <option value="Decoy Grenade">Decoy Grenade</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="player">
+                <h3>Player 2</h3>
+                <div class="form-group-container">
+                    <div class="form-group">
+                        <label>Team:</label>
+                        <input type="number" name="team" value="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Kills:</label>
+                        <input type="number" name="kills" value="20" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Deaths:</label>
+                        <input type="number" name="deaths" value="7" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Defuse Kit (0 or 1):</label>
+                        <input type="number" name="defuse_kit" value="0" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Helmet (0 or 1):</label>
+                        <input type="number" name="helmet" value="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Armor (0-100):</label>
+                        <input type="number" name="armor" value="770" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Equipment Value:</label>
+                        <input type="number" name="equipment_value" value="4700" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Money:</label>
+                        <input type="number" name="money" value="2000" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Primary Weapon:</label>
+                        <select name="primary_weapon">
+                            <option value="AK-47">AK-47</option>
+                            <option value="M4A1-S">M4A1-S</option>
+                            <option value="M4A4">M4A4</option>
+                            <option value="AWP">AWP</option>
+                            <option value="AUG">AUG</option>
+                            <option value="SG 553">SG 553</option>
+                            <option value="FAMAS">FAMAS</option>
+                            <option value="Galil AR" selected>Galil AR</option>
+                            <option value="Scar-20">Scar-20</option>
+                            <option value="G3SG1">G3SG1</option>
+                            <option value="MP5-SD">MP5-SD</option>
+                            <option value="UMP-45">UMP-45</option>
+                            <option value="P90">P90</option>
+                            <option value="MAC-10">MAC-10</option>
+                            <option value="MP7">MP7</option>
+                            <option value="MP9">MP9</option>
+                            <option value="PP-Bizon">PP-Bizon</option>
+                            <option value="Negev">Negev</option>
+                            <option value="M249">M249</option>
+                            <option value="Nova">Nova</option>
+                            <option value="XM1014">XM1014</option>
+                            <option value="Sawed-Off">Sawed-Off</option>
+                            <option value="MAG-7">MAG-7</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Secondary Weapon:</label>
+                        <select name="secondary_weapon">
+                            <option value="P2000">P2000</option>
+                            <option value="USP-S">USP-S</option>
+                            <option value="Glock-18" selected>Glock-18</option>
+                            <option value="P250">P250</option>
+                            <option value="Five-SeveN">Five-SeveN</option>
+                            <option value="Tec-9">Tec-9</option>
+                            <option value="CZ75-Auto">CZ75-Auto</option>
+                            <option value="Desert Eagle">Desert Eagle</option>
+                            <option value="R8 Revolver">R8 Revolver</option>
+                            <option value="Dual Berettas">Dual Berettas</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Grenades:</label>
+                        <select name="grenades" multiple>
+                            <option value="Smoke Grenade" selected>Smoke Grenade</option>
+                            <option value="High Explosive Grenade" selected>High Explosive Grenade</option>
+                            <option value="Flashbang">Flashbang</option>
+                            <option value="Incendiary Grenade">Incendiary Grenade</option>
+                            <option value="Molotov">Molotov</option>
+                            <option value="Decoy Grenade">Decoy Grenade</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="player">
+                <h3>Player 3</h3>
+                <div class="form-group-container">
+                    <div class="form-group">
+                        <label>Team:</label>
+                        <input type="number" name="team" value="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Kills:</label>
+                        <input type="number" name="kills" value="4" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Deaths:</label>
+                        <input type="number" name="deaths" value="15" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Defuse Kit (0 or 1):</label>
+                        <input type="number" name="defuse_kit" value="0" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Helmet (0 or 1):</label>
+                        <input type="number" name="helmet" value="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Armor (0-100):</label>
+                        <input type="number" name="armor" value="80" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Equipment Value:</label>
+                        <input type="number" name="equipment_value" value="3700" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Money:</label>
+                        <input type="number" name="money" value="0" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Primary Weapon:</label>
+                        <select name="primary_weapon">
+                            <option value="AK-47">AK-47</option>
+                            <option value="M4A1-S">M4A1-S</option>
+                            <option value="M4A4">M4A4</option>
+                            <option value="AWP">AWP</option>
+                            <option value="AUG">AUG</option>
+                            <option value="SG 553">SG 553</option>
+                            <option value="FAMAS">FAMAS</option>
+                            <option value="Galil AR">Galil AR</option>
+                            <option value="Scar-20">Scar-20</option>
+                            <option value="G3SG1">G3SG1</option>
+                            <option value="MP5-SD">MP5-SD</option>
+                            <option value="UMP-45">UMP-45</option>
+                            <option value="P90" selected>P90</option>
+                            <option value="MAC-10">MAC-10</option>
+                            <option value="MP7">MP7</option>
+                            <option value="MP9">MP9</option>
+                            <option value="PP-Bizon">PP-Bizon</option>
+                            <option value="Negev">Negev</option>
+                            <option value="M249">M249</option>
+                            <option value="Nova">Nova</option>
+                            <option value="XM1014">XM1014</option>
+                            <option value="Sawed-Off">Sawed-Off</option>
+                            <option value="MAG-7">MAG-7</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Secondary Weapon:</label>
+                        <select name="secondary_weapon">
+                            <option value="P2000">P2000</option>
+                            <option value="USP-S">USP-S</option>
+                            <option value="Glock-18" selected>Glock-18</option>
+                            <option value="P250">P250</option>
+                            <option value="Five-SeveN">Five-SeveN</option>
+                            <option value="Tec-9">Tec-9</option>
+                            <option value="CZ75-Auto">CZ75-Auto</option>
+                            <option value="Desert Eagle">Desert Eagle</option>
+                            <option value="R8 Revolver">R8 Revolver</option>
+                            <option value="Dual Berettas">Dual Berettas</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Grenades:</label>
+                        <select name="grenades" multiple>
+                            <option value="Smoke Grenade" selected>Smoke Grenade</option>
+                            <option value="High Explosive Grenade">High Explosive Grenade</option>
+                            <option value="Flashbang">Flashbang</option>
+                            <option value="Incendiary Grenade">Incendiary Grenade</option>
+                            <option value="Molotov"selected>Molotov</option>
+                            <option value="Decoy Grenade"selected>Decoy Grenade</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="player">
+                <h3>Player 4</h3>
+                <div class="form-group-container">
+                    <div class="form-group">
+                        <label>Team:</label>
+                        <input type="number" name="team" value="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Kills:</label>
+                        <input type="number" name="kills" value="7" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Deaths:</label>
+                        <input type="number" name="deaths" value="12" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Defuse Kit (0 or 1):</label>
+                        <input type="number" name="defuse_kit" value="0" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Helmet (0 or 1):</label>
+                        <input type="number" name="helmet" value="0" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Armor (0-100):</label>
+                        <input type="number" name="armor" value="55" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Equipment Value:</label>
+                        <input type="number" name="equipment_value" value="6000" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Money:</label>
+                        <input type="number" name="money" value="2000" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Primary Weapon:</label>
+                        <select name="primary_weapon">
+                            <option value="AK-47">AK-47</option>
+                            <option value="M4A1-S">M4A1-S</option>
+                            <option value="M4A4">M4A4</option>
+                            <option value="AWP"selected>AWP</option>
+                            <option value="AUG">AUG</option>
+                            <option value="SG 553">SG 553</option>
+                            <option value="FAMAS">FAMAS</option>
+                            <option value="Galil AR">Galil AR</option>
+                            <option value="Scar-20">Scar-20</option>
+                            <option value="G3SG1">G3SG1</option>
+                            <option value="MP5-SD">MP5-SD</option>
+                            <option value="UMP-45">UMP-45</option>
+                            <option value="P90">P90</option>
+                            <option value="MAC-10">MAC-10</option>
+                            <option value="MP7">MP7</option>
+                            <option value="MP9">MP9</option>
+                            <option value="PP-Bizon">PP-Bizon</option>
+                            <option value="Negev">Negev</option>
+                            <option value="M249">M249</option>
+                            <option value="Nova">Nova</option>
+                            <option value="XM1014">XM1014</option>
+                            <option value="Sawed-Off">Sawed-Off</option>
+                            <option value="MAG-7">MAG-7</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Secondary Weapon:</label>
+                        <select name="secondary_weapon">
+                            <option value="P2000">P2000</option>
+                            <option value="USP-S">USP-S</option>
+                            <option value="Glock-18">Glock-18</option>
+                            <option value="P250">P250</option>
+                            <option value="Five-SeveN">Five-SeveN</option>
+                            <option value="Tec-9">Tec-9</option>
+                            <option value="CZ75-Auto">CZ75-Auto</option>
+                            <option value="Desert Eagle" selected>Desert Eagle</option>
+                            <option value="R8 Revolver">R8 Revolver</option>
+                            <option value="Dual Berettas">Dual Berettas</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Grenades:</label>
+                        <select name="grenades" multiple>
+                            <option value="Smoke Grenade" selected>Smoke Grenade</option>
+                            <option value="High Explosive Grenade" selected>High Explosive Grenade</option>
+                            <option value="Flashbang" selected>Flashbang</option>
+                            <option value="Incendiary Grenade">Incendiary Grenade</option>
+                            <option value="Molotov">Molotov</option>
+                            <option value="Decoy Grenade">Decoy Grenade</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="player">
+                <h3>Player 5</h3>
+                <div class="form-group-container">
+                    <div class="form-group">
+                        <label>Team:</label>
+                        <input type="number" name="team" value="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Kills:</label>
+                        <input type="number" name="kills" value="5" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Deaths:</label>
+                        <input type="number" name="deaths" value="12" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Defuse Kit (0 or 1):</label>
+                        <input type="number" name="defuse_kit" value="0" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Helmet (0 or 1):</label>
+                        <input type="number" name="helmet" value="0" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Armor (0-100):</label>
+                        <input type="number" name="armor" value="90" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Equipment Value:</label>
+                        <input type="number" name="equipment_value" value="2200" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Money:</label>
+                        <input type="number" name="money" value="150" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Primary Weapon:</label>
+                        <select name="primary_weapon">
+                            <option value="AK-47">AK-47</option>
+                            <option value="M4A1-S">M4A1-S</option>
+                            <option value="M4A4">M4A4</option>
+                            <option value="AWP">AWP</option>
+                            <option value="AUG">AUG</option>
+                            <option value="SG 553">SG 553</option>
+                            <option value="FAMAS">FAMAS</option>
+                            <option value="Galil AR">Galil AR</option>
+                            <option value="Scar-20">Scar-20</option>
+                            <option value="G3SG1">G3SG1</option>
+                            <option value="MP5-SD">MP5-SD</option>
+                            <option value="UMP-45">UMP-45</option>
+                            <option value="P90">P90</option>
+                            <option value="MAC-10"selected>MAC-10</option>
+                            <option value="MP7">MP7</option>
+                            <option value="MP9">MP9</option>
+                            <option value="PP-Bizon">PP-Bizon</option>
+                            <option value="Negev">Negev</option>
+                            <option value="M249">M249</option>
+                            <option value="Nova">Nova</option>
+                            <option value="XM1014">XM1014</option>
+                            <option value="Sawed-Off">Sawed-Off</option>
+                            <option value="MAG-7">MAG-7</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Secondary Weapon:</label>
+                        <select name="secondary_weapon">
+                            <option value="P2000">P2000</option>
+                            <option value="USP-S" selected>USP-S</option>
+                            <option value="Glock-18">Glock-18</option>
+                            <option value="P250">P250</option>
+                            <option value="Five-SeveN">Five-SeveN</option>
+                            <option value="Tec-9">Tec-9</option>
+                            <option value="CZ75-Auto">CZ75-Auto</option>
+                            <option value="Desert Eagle">Desert Eagle</option>
+                            <option value="R8 Revolver">R8 Revolver</option>
+                            <option value="Dual Berettas">Dual Berettas</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Grenades:</label>
+                        <select name="grenades" multiple>
+                            <option value="Smoke Grenade" selected>Smoke Grenade</option>
+                            <option value="High Explosive Grenade">High Explosive Grenade</option>
+                            <option value="Flashbang">Flashbang</option>
+                            <option value="Incendiary Grenade">Incendiary Grenade</option>
+                            <option value="Molotov">Molotov</option>
+                            <option value="Decoy Grenade">Decoy Grenade</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="player">
+                <h3>Player 6</h3>
+                <div class="form-group-container">
+                    <div class="form-group">
+                        <label>Team:</label>
+                        <input type="number" name="team" value="0" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Kills:</label>
+                        <input type="number" name="kills" value="11" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Deaths:</label>
+                        <input type="number" name="deaths" value="11" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Defuse Kit (0 or 1):</label>
+                        <input type="number" name="defuse_kit" value="0" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Helmet (0 or 1):</label>
+                        <input type="number" name="helmet" value="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Armor (0-100):</label>
+                        <input type="number" name="armor" value="100" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Equipment Value:</label>
+                        <input type="number" name="equipment_value" value="4200" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Money:</label>
+                        <input type="number" name="money" value="150" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Primary Weapon:</label>
+                        <select name="primary_weapon">
+                            <option value="AK-47" >AK-47</option>
+                            <option value="M4A1-S"selected>M4A1-S</option>
+                            <option value="M4A4">M4A4</option>
+                            <option value="AWP">AWP</option>
+                            <option value="AUG">AUG</option>
+                            <option value="SG 553">SG 553</option>
+                            <option value="FAMAS">FAMAS</option>
+                            <option value="Galil AR">Galil AR</option>
+                            <option value="Scar-20">Scar-20</option>
+                            <option value="G3SG1">G3SG1</option>
+                            <option value="MP5-SD">MP5-SD</option>
+                            <option value="UMP-45">UMP-45</option>
+                            <option value="P90">P90</option>
+                            <option value="MAC-10">MAC-10</option>
+                            <option value="MP7">MP7</option>
+                            <option value="MP9">MP9</option>
+                            <option value="PP-Bizon">PP-Bizon</option>
+                            <option value="Negev">Negev</option>
+                            <option value="M249">M249</option>
+                            <option value="Nova">Nova</option>
+                            <option value="XM1014">XM1014</option>
+                            <option value="Sawed-Off">Sawed-Off</option>
+                            <option value="MAG-7">MAG-7</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Secondary Weapon:</label>
+                        <select name="secondary_weapon">
+                            <option value="P2000">P2000</option>
+                            <option value="USP-S" selected>USP-S</option>
+                            <option value="Glock-18">Glock-18</option>
+                            <option value="P250">P250</option>
+                            <option value="Five-SeveN">Five-SeveN</option>
+                            <option value="Tec-9">Tec-9</option>
+                            <option value="CZ75-Auto">CZ75-Auto</option>
+                            <option value="Desert Eagle">Desert Eagle</option>
+                            <option value="R8 Revolver">R8 Revolver</option>
+                            <option value="Dual Berettas">Dual Berettas</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Grenades:</label>
+                        <select name="grenades" multiple>
+                            <option value="Smoke Grenade" selected>Smoke Grenade</option>
+                            <option value="High Explosive Grenade">High Explosive Grenade</option>
+                            <option value="Flashbang">Flashbang</option>
+                            <option value="Incendiary Grenade">Incendiary Grenade</option>
+                            <option value="Molotov">Molotov</option>
+                            <option value="Decoy Grenade">Decoy Grenade</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="player">
+                <h3>Player 7</h3>
+                <div class="form-group-container">
+                    <div class="form-group">
+                        <label>Team:</label>
+                        <input type="number" name="team" value="0" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Kills:</label>
+                        <input type="number" name="kills" value="20" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Deaths:</label>
+                        <input type="number" name="deaths" value="7" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Defuse Kit (0 or 1):</label>
+                        <input type="number" name="defuse_kit" value="0" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Helmet (0 or 1):</label>
+                        <input type="number" name="helmet" value="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Armor (0-100):</label>
+                        <input type="number" name="armor" value="770" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Equipment Value:</label>
+                        <input type="number" name="equipment_value" value="4700" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Money:</label>
+                        <input type="number" name="money" value="2000" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Primary Weapon:</label>
+                        <select name="primary_weapon">
+                            <option value="AK-47">AK-47</option>
+                            <option value="M4A1-S">M4A1-S</option>
+                            <option value="M4A4">M4A4</option>
+                            <option value="AWP">AWP</option>
+                            <option value="AUG">AUG</option>
+                            <option value="SG 553">SG 553</option>
+                            <option value="FAMAS"selected>FAMAS</option>
+                            <option value="Galil AR" >Galil AR</option>
+                            <option value="Scar-20">Scar-20</option>
+                            <option value="G3SG1">G3SG1</option>
+                            <option value="MP5-SD">MP5-SD</option>
+                            <option value="UMP-45">UMP-45</option>
+                            <option value="P90">P90</option>
+                            <option value="MAC-10">MAC-10</option>
+                            <option value="MP7">MP7</option>
+                            <option value="MP9">MP9</option>
+                            <option value="PP-Bizon">PP-Bizon</option>
+                            <option value="Negev">Negev</option>
+                            <option value="M249">M249</option>
+                            <option value="Nova">Nova</option>
+                            <option value="XM1014">XM1014</option>
+                            <option value="Sawed-Off">Sawed-Off</option>
+                            <option value="MAG-7">MAG-7</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Secondary Weapon:</label>
+                        <select name="secondary_weapon">
+                            <option value="P2000">P2000</option>
+                            <option value="USP-S">USP-S</option>
+                            <option value="Glock-18" >Glock-18</option>
+                            <option value="P250">P250</option>
+                            <option value="Five-SeveN"selected>Five-SeveN</option>
+                            <option value="Tec-9">Tec-9</option>
+                            <option value="CZ75-Auto">CZ75-Auto</option>
+                            <option value="Desert Eagle">Desert Eagle</option>
+                            <option value="R8 Revolver">R8 Revolver</option>
+                            <option value="Dual Berettas">Dual Berettas</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Grenades:</label>
+                        <select name="grenades" multiple>
+                            <option value="Smoke Grenade" selected>Smoke Grenade</option>
+                            <option value="High Explosive Grenade" selected>High Explosive Grenade</option>
+                            <option value="Flashbang">Flashbang</option>
+                            <option value="Incendiary Grenade">Incendiary Grenade</option>
+                            <option value="Molotov">Molotov</option>
+                            <option value="Decoy Grenade">Decoy Grenade</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="player">
+                <h3>Player 8</h3>
+                <div class="form-group-container">
+                    <div class="form-group">
+                        <label>Team:</label>
+                        <input type="number" name="team" value="0" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Kills:</label>
+                        <input type="number" name="kills" value="4" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Deaths:</label>
+                        <input type="number" name="deaths" value="15" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Defuse Kit (0 or 1):</label>
+                        <input type="number" name="defuse_kit" value="0" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Helmet (0 or 1):</label>
+                        <input type="number" name="helmet" value="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Armor (0-100):</label>
+                        <input type="number" name="armor" value="80" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Equipment Value:</label>
+                        <input type="number" name="equipment_value" value="3700" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Money:</label>
+                        <input type="number" name="money" value="0" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Primary Weapon:</label>
+                        <select name="primary_weapon">
+                            <option value="AK-47">AK-47</option>
+                            <option value="M4A1-S">M4A1-S</option>
+                            <option value="M4A4">M4A4</option>
+                            <option value="AWP">AWP</option>
+                            <option value="AUG">AUG</option>
+                            <option value="SG 553">SG 553</option>
+                            <option value="FAMAS">FAMAS</option>
+                            <option value="Galil AR">Galil AR</option>
+                            <option value="Scar-20">Scar-20</option>
+                            <option value="G3SG1">G3SG1</option>
+                            <option value="MP5-SD">MP5-SD</option>
+                            <option value="UMP-45">UMP-45</option>
+                            <option value="P90" selected>P90</option>
+                            <option value="MAC-10">MAC-10</option>
+                            <option value="MP7">MP7</option>
+                            <option value="MP9">MP9</option>
+                            <option value="PP-Bizon">PP-Bizon</option>
+                            <option value="Negev">Negev</option>
+                            <option value="M249">M249</option>
+                            <option value="Nova">Nova</option>
+                            <option value="XM1014">XM1014</option>
+                            <option value="Sawed-Off">Sawed-Off</option>
+                            <option value="MAG-7">MAG-7</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Secondary Weapon:</label>
+                        <select name="secondary_weapon">
+                            <option value="P2000">P2000</option>
+                            <option value="USP-S">USP-S</option>
+                            <option value="Glock-18" >Glock-18</option>
+                            <option value="P250"selected>P250</option>
+                            <option value="Five-SeveN">Five-SeveN</option>
+                            <option value="Tec-9">Tec-9</option>
+                            <option value="CZ75-Auto">CZ75-Auto</option>
+                            <option value="Desert Eagle">Desert Eagle</option>
+                            <option value="R8 Revolver">R8 Revolver</option>
+                            <option value="Dual Berettas">Dual Berettas</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Grenades:</label>
+                        <select name="grenades" multiple>
+                            <option value="Smoke Grenade" selected>Smoke Grenade</option>
+                            <option value="High Explosive Grenade">High Explosive Grenade</option>
+                            <option value="Flashbang">Flashbang</option>
+                            <option value="Incendiary Grenade">Incendiary Grenade</option>
+                            <option value="Molotov"selected>Molotov</option>
+                            <option value="Decoy Grenade"selected>Decoy Grenade</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="player">
+                <h3>Player 9</h3>
+                <div class="form-group-container">
+                    <div class="form-group">
+                        <label>Team:</label>
+                        <input type="number" name="team" value="0" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Kills:</label>
+                        <input type="number" name="kills" value="7" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Deaths:</label>
+                        <input type="number" name="deaths" value="12" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Defuse Kit (0 or 1):</label>
+                        <input type="number" name="defuse_kit" value="0" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Helmet (0 or 1):</label>
+                        <input type="number" name="helmet" value="0" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Armor (0-100):</label>
+                        <input type="number" name="armor" value="55" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Equipment Value:</label>
+                        <input type="number" name="equipment_value" value="6000" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Money:</label>
+                        <input type="number" name="money" value="2000" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Primary Weapon:</label>
+                        <select name="primary_weapon">
+                            <option value="AK-47">AK-47</option>
+                            <option value="M4A1-S">M4A1-S</option>
+                            <option value="M4A4">M4A4</option>
+                            <option value="AWP"selected>AWP</option>
+                            <option value="AUG">AUG</option>
+                            <option value="SG 553">SG 553</option>
+                            <option value="FAMAS">FAMAS</option>
+                            <option value="Galil AR">Galil AR</option>
+                            <option value="Scar-20">Scar-20</option>
+                            <option value="G3SG1">G3SG1</option>
+                            <option value="MP5-SD">MP5-SD</option>
+                            <option value="UMP-45">UMP-45</option>
+                            <option value="P90">P90</option>
+                            <option value="MAC-10">MAC-10</option>
+                            <option value="MP7">MP7</option>
+                            <option value="MP9">MP9</option>
+                            <option value="PP-Bizon">PP-Bizon</option>
+                            <option value="Negev">Negev</option>
+                            <option value="M249">M249</option>
+                            <option value="Nova">Nova</option>
+                            <option value="XM1014">XM1014</option>
+                            <option value="Sawed-Off">Sawed-Off</option>
+                            <option value="MAG-7">MAG-7</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Secondary Weapon:</label>
+                        <select name="secondary_weapon">
+                            <option value="P2000">P2000</option>
+                            <option value="USP-S">USP-S</option>
+                            <option value="Glock-18">Glock-18</option>
+                            <option value="P250">P250</option>
+                            <option value="Five-SeveN">Five-SeveN</option>
+                            <option value="Tec-9">Tec-9</option>
+                            <option value="CZ75-Auto">CZ75-Auto</option>
+                            <option value="Desert Eagle" selected>Desert Eagle</option>
+                            <option value="R8 Revolver">R8 Revolver</option>
+                            <option value="Dual Berettas">Dual Berettas</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Grenades:</label>
+                        <select name="grenades" multiple>
+                            <option value="Smoke Grenade" selected>Smoke Grenade</option>
+                            <option value="High Explosive Grenade" selected>High Explosive Grenade</option>
+                            <option value="Flashbang" selected>Flashbang</option>
+                            <option value="Incendiary Grenade">Incendiary Grenade</option>
+                            <option value="Molotov">Molotov</option>
+                            <option value="Decoy Grenade">Decoy Grenade</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="player">
+                <h3>Player 10</h3>
+                <div class="form-group-container">
+                    <div class="form-group">
+                        <label>Team:</label>
+                        <input type="number" name="team" value="0" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Kills:</label>
+                        <input type="number" name="kills" value="5" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Deaths:</label>
+                        <input type="number" name="deaths" value="12" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Defuse Kit (0 or 1):</label>
+                        <input type="number" name="defuse_kit" value="0" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Helmet (0 or 1):</label>
+                        <input type="number" name="helmet" value="0" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Armor (0-100):</label>
+                        <input type="number" name="armor" value="90" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Equipment Value:</label>
+                        <input type="number" name="equipment_value" value="2200" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Money:</label>
+                        <input type="number" name="money" value="150" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Primary Weapon:</label>
+                        <select name="primary_weapon">
+                            <option value="AK-47"selected>AK-47</option>
+                            <option value="M4A1-S">M4A1-S</option>
+                            <option value="M4A4">M4A4</option>
+                            <option value="AWP">AWP</option>
+                            <option value="AUG">AUG</option>
+                            <option value="SG 553">SG 553</option>
+                            <option value="FAMAS">FAMAS</option>
+                            <option value="Galil AR">Galil AR</option>
+                            <option value="Scar-20">Scar-20</option>
+                            <option value="G3SG1">G3SG1</option>
+                            <option value="MP5-SD">MP5-SD</option>
+                            <option value="UMP-45">UMP-45</option>
+                            <option value="P90">P90</option>
+                            <option value="MAC-10">MAC-10</option>
+                            <option value="MP7">MP7</option>
+                            <option value="MP9">MP9</option>
+                            <option value="PP-Bizon">PP-Bizon</option>
+                            <option value="Negev">Negev</option>
+                            <option value="M249">M249</option>
+                            <option value="Nova">Nova</option>
+                            <option value="XM1014">XM1014</option>
+                            <option value="Sawed-Off">Sawed-Off</option>
+                            <option value="MAG-7">MAG-7</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Secondary Weapon:</label>
+                        <select name="secondary_weapon">
+                            <option value="P2000">P2000</option>
+                            <option value="USP-S" selected>USP-S</option>
+                            <option value="Glock-18">Glock-18</option>
+                            <option value="P250">P250</option>
+                            <option value="Five-SeveN">Five-SeveN</option>
+                            <option value="Tec-9">Tec-9</option>
+                            <option value="CZ75-Auto">CZ75-Auto</option>
+                            <option value="Desert Eagle">Desert Eagle</option>
+                            <option value="R8 Revolver">R8 Revolver</option>
+                            <option value="Dual Berettas">Dual Berettas</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Grenades:</label>
+                        <select name="grenades" multiple>
+                            <option value="Smoke Grenade" selected>Smoke Grenade</option>
+                            <option value="High Explosive Grenade">High Explosive Grenade</option>
+                            <option value="Flashbang">Flashbang</option>
+                            <option value="Incendiary Grenade">Incendiary Grenade</option>
+                            <option value="Molotov">Molotov</option>
+                            <option value="Decoy Grenade">Decoy Grenade</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="submit">Predict</button>
+    </form>
+
+    <script>
+        document.getElementById('match-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const players = [];
+            const playerElements = document.querySelectorAll('.player');
+            
+            playerElements.forEach(playerEl => {
+                const player = {
+                    team: playerEl.querySelector('input[name="team"]').value,
+                    kills: playerEl.querySelector('input[name="kills"]').value,
+                    deaths: playerEl.querySelector('input[name="deaths"]').value,
+                    defuse_kit: playerEl.querySelector('input[name="defuse_kit"]').value,
+                    helmet: playerEl.querySelector('input[name="helmet"]').value,
+                    armor: playerEl.querySelector('input[name="armor"]').value,
+                    equipment_value: playerEl.querySelector('input[name="equipment_value"]').value,
+                    money: playerEl.querySelector('input[name="money"]').value,
+                    primary_weapon: playerEl.querySelector('select[name="primary_weapon"]').value,
+                    secondary_weapon: playerEl.querySelector('select[name="secondary_weapon"]').value,
+                    grenades: Array.from(playerEl.querySelector('select[name="grenades"]').selectedOptions).map(option => option.value)
+                };
+                players.push(player);
+            });
+
+            fetch('/predict', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ players })
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert('Predictions: ' + JSON.stringify(data));
+            });
+        });
+    </script>
+</body>
+</html>
